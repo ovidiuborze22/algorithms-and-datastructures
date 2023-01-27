@@ -10,3 +10,8 @@ print(array[0])
 print('######  Linear time complexity  #######')
 for element in array:
      print(element)
+
+######  Logarithmic time complexity  #######
+print('######  Logarithmic time complexity  #######')
+for index in range(0,len(array),3):
+     print(array[index])
