@@ -68,3 +68,12 @@ def findMaxNumRec(sampleArray, n):
     return max(sampleArray[n-1],findMaxNumRec(sampleArray,n-1))
 
 print(findMaxNumRec(sample1Array,len(sample1Array)))
+
+######  Recursive algorithm multiple calls ####### 
+print('######  Recursive algorithm multiple calls  #######')
+def f(n):
+    if n <= 1:
+        return 1
+    return f(n-1) + f(n-1)
+
+print(f(3))
