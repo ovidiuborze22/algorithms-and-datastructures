@@ -59,3 +59,12 @@ def findBiggestNumber(sampleArray):
     print(biggestNumber)
 
 findBiggestNumber(sample1Array)
+
+######  Recursive algorithm - finding the biggest number in the array ####### 
+print('######  Recursive algorithm  #######')
+def findMaxNumRec(sampleArray, n):
+    if n == 1:
+       return sampleArray[0]
+    return max(sampleArray[n-1],findMaxNumRec(sampleArray,n-1))
+
+print(findMaxNumRec(sample1Array,len(sample1Array)))
