@@ -21,3 +21,12 @@ print('######  Quadratic time complexity  #######')
 for x in array:
     for y in array:
          print(x,y)
+
+######  Exponential time complexity  #######
+print('######  Exponential time complexity  #######')
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
+
+print(fibonacci(10))
