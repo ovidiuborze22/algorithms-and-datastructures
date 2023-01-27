@@ -15,3 +15,9 @@ for element in array:
 print('######  Logarithmic time complexity  #######')
 for index in range(0,len(array),3):
      print(array[index])
+
+######  Quadratic time complexity  #######
+print('######  Quadratic time complexity  #######')
+for x in array:
+    for y in array:
+         print(x,y)
