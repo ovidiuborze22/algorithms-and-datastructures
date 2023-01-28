@@ -46,3 +46,8 @@ print(my_array)
 # 9. Fetch any element through its index using index() method
 print("Step 9")
 print(my_array.index(21))
+
+# 10. Reverse a python array using reverse() method
+print("Step 10")
+my_array.reverse()
+print(my_array)
