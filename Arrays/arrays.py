@@ -62,14 +62,21 @@ my_array.append(11)
 print(my_array.count(11))
 print(my_array)
 
-# 13. Convert array to string using tostring() method
+# 13. Convert array to string using tobytes() method
 print("Step 13")
-strTemp = my_array.tostring()
+strTemp = my_array.tobytes()
 print(strTemp)
 ints = array('i')
-ints.fromstring(strTemp)
+ints.frombytes(strTemp)
 print(ints)
 
 # 14. Convert array to a python list with same elements using tolist() method
 print("Step 14")
 print(my_array.tolist())
+
+# 15. Append a string to char array using frombytes() method
+# used in question 13
+
+# 16. Slice Elements from an array
+print("Step 16")
+print(my_array[:4])
