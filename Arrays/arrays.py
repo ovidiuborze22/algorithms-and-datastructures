@@ -77,6 +77,6 @@ print(my_array.tolist())
 # 15. Append a string to char array using frombytes() method
 # used in question 13
 
-# 16. Slice Elements from an array
+# 16. Slice Elements from an array 
 print("Step 16")
 print(my_array[:4])
