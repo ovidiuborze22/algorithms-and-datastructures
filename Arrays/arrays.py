@@ -28,3 +28,9 @@ print("Step 5")
 my_array1 = array('i', [10,11,12])
 my_array.extend(my_array1)
 print(my_array)
+
+# 6. Add items from list into array using fromlist() method
+print("Step 6")
+tempList = [20,21,22]
+my_array.fromlist(tempList)
+print(my_array)
