@@ -10,3 +10,15 @@ for i in range(len(shoppingList)):
 empty = []
 for i in empty:
     print("I am empty")
+
+# Update/Insert - List 
+
+myList = [1,2,3,4,5,6,7]
+print(myList)
+myList.insert(4,15)
+
+myList.append(55)
+
+newList = [11,12,13,14]
+myList.extend(newList)
+print(myList)
