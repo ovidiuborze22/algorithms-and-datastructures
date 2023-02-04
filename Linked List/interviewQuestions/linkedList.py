@@ -1,4 +1,5 @@
 # Linked List Class
+
 from random import randint
 
 class Node:
