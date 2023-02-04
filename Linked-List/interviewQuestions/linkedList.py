@@ -51,7 +51,7 @@ class LinkedList:
             self.add(randint(min_value,max_value))
         return self
 
-customLL = LinkedList()
-customLL.generate(10, 0, 99)
-print(customLL)
-print(len(customLL))
+# customLL = LinkedList()
+# customLL.generate(10, 0, 99)
+# print(customLL)
+# print(len(customLL))
