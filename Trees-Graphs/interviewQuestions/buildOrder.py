@@ -13,7 +13,7 @@ graph = create_graph(['A', 'B', 'C', 'D', 'E', 'F'], [('A','D'), ('F', 'B'), ('B
 def get_projects_with_dependencies(graph):
    projects_with_depen = set()
    for project in graph:
-       # addin values from dictionaty because values are dependednt of key
+       # adding values from dictionary because values are dependent of key
        projects_with_depen = projects_with_depen.union(set(graph[project]))
    
    return projects_with_depen
