@@ -10,6 +10,7 @@ def findMinCost(twoDArray, row, col):
         op2 = findMinCost(twoDArray, row, col-1)
         return twoDArray[row][col] + min(op1,op2)
 
+
 TwoDList = [[4,7,8,6,4],
            [6,7,3,9,2],
            [3,8,1,2,4],
