@@ -17,7 +17,6 @@ def numberOfPaths(twoDArray, row, col, cost):
         op2 = numberOfPaths(twoDArray, row, col-1, cost - twoDArray[row][col] )
         return op1 + op2
 
-
 TwoDList = [[4,7,1,6],
            [5,7,3,9],
            [3,2,1,2],
