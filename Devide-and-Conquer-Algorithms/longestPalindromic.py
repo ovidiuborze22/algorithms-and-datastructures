@@ -1,4 +1,3 @@
-
 # Longest Palindromic Subsequence in Python
 
 def findLPS(s, startIndex, endIndex):
