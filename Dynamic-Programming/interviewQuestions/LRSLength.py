@@ -1,5 +1,6 @@
 # Function to find the length of Longest repeated Subsequence
 # of substring X[0..m-1] and X[0..n-1]
+
 def LRSLength(X, m, n):
  
 	# return if we have reached the end of either string
@@ -12,3 +13,5 @@ def LRSLength(X, m, n):
  
 	# else if characters at index m and n don't match
 	return max(LRSLength(X, m, n - 1), LRSLength(X, m - 1, n))
+
+print(LRSLength('ATAKTKGGA',9,9)) # 4 LRS = ATKG 
